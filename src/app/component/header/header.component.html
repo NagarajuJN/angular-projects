@@ -1,0 +1,36 @@
+<header class="fixed-header">
+    <div class="navbar navbar-dark bg-warning shadow-sm">
+
+        <div class="navbar-brand align-item-center d-flex">
+            <i style="font-size: 40px;" class="fas fa-shipping-fast">&nbsp;  
+                <!-- nbsp--- non-breaking space character entity &nbsp in HTML5 to create spaces that will not break into a new line by word wrap. -->
+                
+            </i>
+            <strong style="font-size: 30px;">Your's Store</strong>
+            <div class="form-group">
+                <input type="text" class="form-control" [(ngModel)]="searchTerm" (keyup)="search($event)" placeholder=" serach products">
+            </div>
+                <span class="fas fa-search search-icon"></span>
+            </div>
+
+            <div *ngIf="!loggedIn">
+                <h5>
+                <a routerLink="/products">Home</a>
+                <a routerLink="/login">Login</a>
+                <a routerLink="/signup">Sign Up</a>
+            </h5>
+              </div>
+            
+              <div *ngIf="loggedIn">
+                <button (click)="logout()">Logout</button>
+                <!-- Other authenticated user options -->
+              </div>
+
+                <button routerLink="cart" class="btn btn-black ">
+                    <i style="font-size: 35px;" class="fas fa-cart-plus"></i>
+                    <div class="badge bg-danger" style="font-size: 12px; color:  white;">{{totalItem}}</div>
+                </button>
+            </div>
+
+
+</header>

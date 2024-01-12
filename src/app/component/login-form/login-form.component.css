@@ -1,0 +1,64 @@
+.form-container{
+    text-align: center;
+    margin-top: 100px;
+
+}
+/* Sample styling for login form */
+.login-form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 3px solid #ccc;
+    border-radius: 30px;
+    background-color: #f9f9f9;
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .message {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+  }
+  button[type="submit"] {
+    width: 100px,
+    
+    
+  }  

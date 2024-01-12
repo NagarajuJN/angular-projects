@@ -1,0 +1,24 @@
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; }   
+
+.form-control{
+        border-radius: 30px;
+        width: 600px;
+        margin-left: 20px;
+    }
+    a {
+        padding-right: 20px; /* Add right padding of 20px to create space between links */
+        display: inline-block; /* Make anchor tags inline-block elements */
+      }
+    .search-icon {
+        position: absolute;
+        z-index: 10;
+        right: 44%;
+        top: 20px;
+        color:  rgba(109, 107, 96, 0.842);
+        align-items: center;
+    }

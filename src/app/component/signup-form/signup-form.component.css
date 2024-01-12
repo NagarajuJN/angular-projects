@@ -1,0 +1,44 @@
+.form-container1{
+    text-align: center;
+    margin-top: 150px;
+
+}
+
+/* Sample styling for signup form */
+.signup-form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 3px solid #ccc;
+    border-radius: 30px;
+    background-color: #f9f9f9;
+  }
+  
+  .signup-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    width: 100;
+    color: black;
+
+    
+    
+  }  
